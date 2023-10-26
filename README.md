@@ -8,8 +8,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Introduction
@@ -39,5 +37,31 @@ Follow these steps to get the project up and running on your local machine.
 
 1. Clone the repository:
    ```bash
-   git clone
+   git clone https://github.com/RajuRJX/profile-search-app.git
    ```
+2.Navigate to the project directory:
+```bash
+cd profile-search-app
+```
+3.Install dependencies:
+```bash
+npm install
+```
+### Usage
+
+1.To use the application, follow these steps:
+2.Open your command prompt
+3.Navigate to the project directory
+4.Start the application by running:npm start.
+```bash
+npm start
+```
+5.Open a web browser and access the application at http://localhost:5800.
+
+###Acknowledgments
+We would like to thank the following libraries and tools that have contributed to the development of this project:
+
+Microsoft Graph API
+Express.js
+Morgan
+
