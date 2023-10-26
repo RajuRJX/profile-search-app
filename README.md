@@ -51,19 +51,19 @@ npm install
 ### Usage
 
 To use the application, follow these steps:
--1.Open your command prompt
--2.Navigate to the project directory
--3.Start the application by running:npm start.
+- 1.Open your command prompt
+- 2.Navigate to the project directory
+- 3.Start the application by running:npm start.
 ```bash
 npm start
 ```
-4.Open a web browser and access the application at http://localhost:5800.
+- 4.Open a web browser and access the application at http://localhost:5800.
 
-###Acknowledgments
+### Acknowledgments
 
--We would like to thank the following libraries and tools that have contributed to the development of this project:
+- We would like to thank the following libraries and tools that have contributed to the development of this project:
 
--Microsoft Graph API
--Express.js
--Morgan
+- Microsoft Graph API
+- Express.js
+- Morgan
 
