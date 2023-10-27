@@ -1,1 +1,235 @@
+a {
+  color: #051b6d;
+  font-weight: 800;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+}
+body {
+  border: 3px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  /* background-image: url("/images/HD-wallpaper.webp"); */
+  background-repeat: no-repeat;
+  background-size: 250vmax;
+  background-attachment: fixed;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.results-list {
+  list-style-type: none;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+}
 
+.results-list li {
+  flex: 0 0 calc(30% - 2rem); 
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: blue;
+}
+
+li {
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.4vw;
+}
+h1 {
+  text-align: center;
+  color: brown;
+}
+
+.f1,
+.f2,
+.f11 {
+  width: 95%;
+  color: black;
+  background-color: white;
+  overflow: hidden;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+.f11 {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  background-color: #051b6d;
+}
+
+.f2 {
+  height: 90vmax;
+  background-color: #051b6d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  border: 3px solid black;
+}
+.f1{
+  background-color:#051b6d;
+}
+
+.image {
+  width: 100%;
+  margin-left:40% ;
+  max-width: 300px;
+}
+
+.button,
+.text-box,
+.b2 {
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  width: 30%;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #051b6d; 
+  border: none;
+  cursor: pointer;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.text-box {
+  background-color: white;
+  color: black;
+  width: 100%;
+  border: black;
+  border-style: solid;
+}
+
+.b2 {
+  width: 10%;
+}
+
+.b2:hover,
+.button:hover {
+  background-color: #1c4cc7; 
+}
+
+.button-container {
+  display: flex;
+  position: static;
+  justify-content: space-between;
+}
+h2 {
+  font-size: xx-large;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+.text {
+  display: flex;
+}
+.text1 {
+  width: 85%;
+}
+.text2 {
+  width: 15%;
+}
+.button {
+  width: 100%;
+  height: 50px;
+}
+#signInbutton
+{
+  margin-top: 18px;
+  height: 45px;
+  font-weight: 600;
+  color:#051b6d;
+  background-color: white;
+}
+
+#signOutButton {
+  display: none;
+  background-color: red;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+body {
+background-size: 100%;
+font-size: 16px;
+}
+
+.frame {
+margin: 0;
+padding: 0;
+}
+
+.results-list li {
+flex: 0 0 calc(50% - 1rem);
+}
+
+.f1 {
+width: 100%;
+padding: 1rem;
+}
+
+.text {
+flex-direction: column;
+}
+
+.text1,
+.text2 {
+width: 100%;
+}
+
+.b2 {
+width: 100%;
+margin: 1rem 0;
+}
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+.results-list li {
+flex: 0 0 100%; 
+}
+
+.text-box, .button {
+width: 100%;
+}
+
+.button-container {
+flex-direction: column; 
+align-items: center; 
+}
+
+.b2 {
+width: 100%;
+margin: 1rem 0;
+}
+
+.image {
+margin: 1rem auto; 
+width: 80%;
+}
+
+.f1 {
+padding: 1rem;
+}
+
+.text1,
+.text2 {
+width: 100%;
+}
+
+.f2 {
+padding: 1rem;
+}
+}
