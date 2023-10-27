@@ -7,7 +7,7 @@ const argv = require("yargs")
   .describe("port", "(optional) Port Number -default is 3000")
   .strict().argv;
 
-const DEFAULT_PORT = 5800;
+const DEFAULT_PORT = 5502;
 const app = express();
 let port = DEFAULT_PORT;
 if (argv.p) {
