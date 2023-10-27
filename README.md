@@ -32,7 +32,7 @@ Follow these steps to get the project up and running on your local machine.
 ### Prerequisites
 
 - Node.js and npm installed on your machine.
-
+  
 ### Installation
 
 1. Clone the repository:
@@ -57,12 +57,11 @@ To use the application, follow these steps:
 ```bash
 npm start
 ```
-- 4.Open a web browser and access the application at http://localhost:5502.
+- 4.Replace the redirect Url with ur permanent webpage url in the index.js file and aslo in the app registered in azure portal
 
 ### Acknowledgments
 
 - We would like to thank the following libraries and tools that have contributed to the development of this project:
-
 - Microsoft Graph API
 - Express.js
 - Morgan
