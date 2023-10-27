@@ -57,7 +57,7 @@ To use the application, follow these steps:
 ```bash
 npm start
 ```
-- 4.Open a web browser and access the application at http://localhost:5800.
+- 4.Open a web browser and access the application at http://localhost:5502.
 
 ### Acknowledgments
 
