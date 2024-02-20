@@ -12,7 +12,7 @@ async function toggleLogin() {
 //UI changes
 function logout() {
   const loginButton = document.getElementById("loginButton");
-  const signOutButton = document.getElementById("signOutButton");
+  const signOutButton = document.getElementById("signOutButton")
 
   loginButton.style.display = "inline-block";
   signOutButton.style.display = "none";
@@ -36,7 +36,7 @@ const msalconfig = {
     clientId: "5047e9a3-2b87-4fc9-abd8-9e85cca0e02d",
     authotity: "https://login.microsoftonline.com/common/",
     //Replace the localhost url below with ur permanent webpage url
-    redirectUri: "https://sairajobs.onrender.com/callback",
+    redirectUri: "http://localhost:5502/",
   },
   cache: {
     cacheLocation: "sessionstorage",
